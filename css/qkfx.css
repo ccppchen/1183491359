@@ -1,0 +1,15 @@
+.gmain{ width:100%; background:#ededed; padding-top:18px;}
+.main{ width:960px; margin:0 auto;}
+.show-l{ width:727px;}
+.show-l h2{ width:727px; height:42px; line-height:42px; text-align:left; font-size:18px; font-weight:normal;}
+.show-main li{ width:727px; background:#fff; border-radius:0 0 4px 4px; border-color:#d9d9d9; border-width:0 1px 2px; border-style:solid; box-shadow:0 2px 4px 0 #d9d9d9; margin-bottom:10px; padding:23px; width:679px;}
+.item-img{ width:680px; height:320px;}
+.item-title{ text-align:left; font-size:22px; display:block; height:60px; line-height:60px;}
+.item-p{ font-size:14px; line-height:24px; color:#333;}
+.show-info{ padding-top:10px; line-height:30px; color:#999;}
+.show-info .user-name{ text-align:left; margin:0 5px; float:left; font-size:14px;}
+.item-comment,.item-praise{ background:url(../images/showjingl.png) no-repeat 0 -355px; color:#999; height:16px; line-height:16px; margin:10px 10px 0; padding-left:20px;}
+.item-praise{ background-position:0 -328px;}
+.user-img{ width:30px; height:30px; border-radius:15px; float:left;}
+
+.show-r{ width:220px; margin-top:42px;}

@@ -1,0 +1,53 @@
+/*banner start*/
+.banner{margin:0px auto 0px auto;width:1000px;}
+.slides{margin:0px auto;width:1000px;height:420px;overflow:hidden;position:relative;}
+.slide-pic{width:1000px;overflow:hidden;list-style:none;}
+.slide-pic img{width:1000px;height:420px;}
+.slide-pic li{display:none;}
+.slide-pic li.cur{display:block;}
+.slide-li{left:0px;bottom:0px;position:absolute;}
+.slide-li li{width:200px;height:10px;float:left;overflow:hidden;list-style:none;}
+.slide-li a{width:200px;height:10px;color:#000;font-size:12px;display:block;}
+.slide-li a:hover{color:#F00;text-decoration:none;}
+.op li{background:#999999;filter:alpha(opacity=60);opacity:0.6;}
+.op li.cur{background:#666666;}
+/*banner end*/
+
+/*mod-start*/
+.main{ background:#ededed;}
+.mod-start,.mod-kp,.dis-pc{ width:1000px; margin:20px auto 0; padding-bottom:20px; background:#EDEDED;}
+.mod-start h2,.mod-kp h2,.discover h2,.pc h2{ text-align:left; font-size:18px; color:#333; line-height:44px;}
+.mod-list{ width:1000px; box-shadow:0 1px 2px #d5d5d5;}
+.mod-watch{ width:500px; background:#FFFFFF; overflow:hidden;}
+.mod-watch a:hover{ margin-left:-5px; background:#FFFFFF; opacity:0.8;}
+.mod-wifi{ width:498px; background:#FFFFFF; overflow:hidden;}
+.mod-wifi a:hover{ margin-left:-5px; background:#FFFFFF; opacity:0.8;}
+/*mod-end*/
+
+/*mod-kp start*/
+.mod-kp ul{ margin-left:-1px; margin-top:-1px; width:1000px; margin:0 auto;}
+.mod-kp ul li{ float:left; margin-left:1px; margin-top:1px; width:249px; height:260px; background:#fff; overflow:hidden;}
+.mod-kp ul li a:hover{ margin-left:-5px; background:#FFFFFF; opacity:0.8;}
+.mod-kp ul .mod-1{ width:499px;}
+/*mod-kp end*/
+
+/*dis-pc start*/
+.discover,.pc{ width:500px;}
+.discover{ padding-top:3px;}
+.pingce{ padding:16px 0 0 17px; box-sizing:border-box;}
+.pingce a{ overflow:hidden; display:block; height:80px;}
+.article{ text-align:left;}
+.article b{ font-size:16px; color:#333; line-height:32px; font-weight:lighter; display:block;}
+.article b:hover{ color:#61AD0F;}
+.article p{ color:#999; padding-top:5px;}
+.dis,.pingce{ background:#fff;}
+.text-list{ padding:1px 30px 0; text-align:left;}
+.text-title{ font-size:18px; color:#000; line-height:40px; display:block;}
+.text-title:hover{ color:#61AD0F;}
+.text-detail{ color:#999;}
+.text-like{ background:url(../images/xin.png) no-repeat 0 -21px; line-height:26px; padding-left:20px; font-style:normal;color:#999;}
+.text-comment{ background:url(../images/xin.png) no-repeat 0 5px; line-height:26px; padding-left:20px; font-style:normal;color:#999;margin-right:20px;}
+.title1{ margin-top:10px;}
+.pingce img{ float:left; margin-right:16px;}
+/*dis-pc end*/
+

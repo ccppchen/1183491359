@@ -1,0 +1,45 @@
+.inner { position: relative; width: 1100px; margin: 0 auto;}
+#dowebok { margin-top: 64px;}
+#dowebok .section { background: url(images/img/section_bg.jpg) 0 0 repeat-x;}
+#dowebok .inner { width: 960px; height: 100%;}
+#dowebok .section1 { background-color: #212121; background-image: none;}
+#dowebok .section1 .fp-tableCell { vertical-align: top;}
+#dowebok .section1 .gojd { display: block; height: 100%; text-indent: -9999px; overflow: hidden; background: url(images/img/slider2.jpg) 50% 0 no-repeat;}
+#dowebok .section2 .img1 { position: absolute; left: 240px; top: 8%;}
+#dowebok .section2 .img2 { position: absolute; left: -7px; bottom: 64px;}
+
+#dowebok .section3 h2 { width: 577px; height: 90px; margin: 0 auto; text-indent: -9999px; background-image: url(images/img/slider3_title.png);}
+#dowebok .section3 img { display: block; margin: 2% auto;}
+#dowebok .section3 .txt { line-height: 30px; text-align: center;}
+#dowebok .section3 .fp-controlArrow { width: 100px; height: 100px; margin-top: -50px; border: 0 none;}
+#dowebok .section3 .fp-prev { left: 150px; background: url(images/img/left_control.png) 50% no-repeat;}
+#dowebok .section3 .fp-next { right: 150px; background: url(images/img/right_control.png) 50% no-repeat;}
+
+#dowebok .section4 .img1 { position: absolute; left: -160px; top: 5%;}
+#dowebok .section4 .txt { position: absolute; right: 0; top: 12%; width: 650px;}
+#dowebok .section4 h2 { height: 90px; margin-bottom: 10px; background: url(images/img/slider4_title.png) 0 0 no-repeat;}
+#dowebok .section4 p { padding: 20px 0; line-height: 30px; font-size: 16px;}
+#dowebok .section4 .icon { height: 111px; background: url(images/img/slider4_icon.png) 0 0 no-repeat;}
+
+#dowebok .section5 .img1 { position: absolute; right: -460px; top: 180px;}
+#dowebok .section5 .txt { position: absolute; left: 0; top: 8%; width: 680px;}
+#dowebok .section5 h2 { height: 90px; margin-bottom: 10px; background: url(images/img/slider5_title.png) 0 0 no-repeat;}
+#dowebok .section5 p { width: 550px; padding: 20px 0; line-height: 30px; font-size: 16px;}
+#dowebok .section5 .icon { margin-right: 15px;}
+
+#dowebok .ft { position: absolute; left: 0; bottom: 64px; width: 960px; background-color: rgba(255, 255, 255, 0.7);}
+#dowebok .ft-link { padding: 10px 0; overflow: hidden; zoom: 1;}
+#dowebok .more-links { float: left; padding: 0 60px; border-right: 1px solid #e7e8e8;}
+#dowebok .ft-link .first { padding-left: 100px;}
+#dowebok .more-links h3 { font-size: 14px; color: #7d7d7d;}
+#dowebok .more-links ul { list-style-type: none;}
+#dowebok .more-links a { color: #676767; text-decoration: none;}
+#dowebok .service { float: right; padding-right: 100px; background: url(images/img/phone.png) 10px 10px no-repeat;}
+#dowebok .service ul { padding: 0 15px 0 56px; background-color: rgba(255, 255, 255, 0.5); list-style-type: none;}
+#dowebok .service .phone { padding: 7px 0 0 10px; border-left: 1px solid #fff; font-size: 22px;}
+#dowebok .service .time { border-left: 1px solid #fff; font-size: 16px; color: #adb0b4;}
+#dowebok .copy { height: 50px;}
+#dowebok .copy p { width: 100%; padding: 0; line-height: 18px; font-size: 12px; text-align: center; color: #a1a1a1;}
+
+#fp-nav span, .fp-slidesNav span { border: 1px solid #999;}
+#fp-nav li .active span, .fp-slidesNav.active span { background-color: #4ec200;}

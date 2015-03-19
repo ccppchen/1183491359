@@ -1,0 +1,317 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>趣酷网-中国最大的酷品曝光平台</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="stylesheet" type="text/css" href="css/baseCss.css">
+<link rel="stylesheet" type="text/css" href="style/css/ue_grid.css" />
+<link rel="stylesheet" type="text/css" href="style/css/style.css" />
+<link rel="stylesheet" type="text/css" href="style/css/style01.css" />
+<style type="text/css">
+
+/* container */
+.main{ width:100%; background:#ededed; padding-top:18px;}
+#container{width:960px; margin:0 auto;}
+#container ul{width:300px;list-style:none;float:left;margin-right:20px; overflow:hidden;}
+#container ul li{
+    margin-bottom:20px;
+    
+    -moz-border-bottom-colors:none;
+    -moz-border-left-colors:none;
+    -moz-border-right-colors:none;
+    -moz-border-top-colors:none;
+    background-color:#fff;
+    background-image:linear-gradient(to bottom, #FFFFFF, #E6E6E6);
+    background-repeat:repeat-x;
+    border-color:#e6e6e6 #e6e6e6 #B3B3B3;
+    border-image:none;
+    border-radius:4px 4px 4px 4px;
+    border-style:solid;
+    border-width:1px;
+    box-shadow:0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);  
+}
+#container ul li img{width:298px;}
+.water_user{color:#666;padding:10px;}
+.water_option{background:#f5f5f5;border-top:1px #f0f0f0 solid;padding:5px 0 5px 10px;}
+.water_option:after{content:"";display:block;clear:both;visibility:hidden;}
+.water_option .option_item,.water_option .split{float:right;}
+.water_option .option_item{color:#3e88cd;text-decoration:none;margin-right:10px;}
+.water_option .option_item:hover{ text-decoration:underline;}
+.water_option .split{display:inline-block;margin:5px 10px 0 0;height:12px;width:1px;background-color:#D8D8D8;}
+
+.loadMeinvMOre{height:20px;line-height:20px;color:#666; font-size:16px; padding-bottom:10px;text-align:center;display:block;clear:both;text-decoration:none;}
+</style>
+</head>
+
+<body>
+<!--header-->
+	<div class="header clearfix">
+    	<div class="logo fl"><h1><a href="index.html">趣酷网</a></h1></div>
+        <div class="login fr">
+          <ul class="clearfix">
+            <li class="openlogin"><a href="JavaScript:;" onclick="return false;">登录</a></li>
+            <li class="reg"><a href="JavaScript:;" onclick="return false;">注册</a></li>
+          </ul>
+        </div>
+    </div>
+<!--header end-->
+
+<!--登录-->
+<div class="loginmask"></div>
+<div id="loginalert">
+  <div class="pd20 loginpd">
+    <h3><i class="closealert fr"></i>
+      <div class="clear"></div>
+    </h3>
+    <div class="loginwrap">
+      <div class="loginh">
+        <div class="fl">会员登录</div>
+        <div class="fr">还没有账号<a id="sigup_now" href="JavaScript:;" onclick="return false;">立即注册</a></div>
+        <div class="clear"></div>
+      </div>
+      <h3><span>邮箱登录</span><span class="login_warning">用户名或密码错误</span>
+        <div class="clear"></div>
+      </h3>
+      <div class="clear"></div>
+      <form action="" method="post" id="login_form">
+        <div class="logininput">
+          <input type="text" name="username" class="loginusername" value="邮箱/用户名" />
+          <input type="text" class="loginuserpasswordt" value="密码" />
+          <input type="password" name="password" class="loginuserpasswordp" style="display:none" />
+        </div>
+        <div class="loginbtn">
+          <div class="loginsubmit fl">
+            <input type="submit" value="登录" />
+            <div class="loginsubmiting">
+              <div class="loginsubmiting_inner"></div>
+            </div>
+          </div>
+          <div class="logcheckbox fl">
+            <input id="bcdl" type="checkbox" checked="true" />
+            保持登录</div>
+          <div class="fr"><a href="JavaScript:;">忘记密码?</a></div>
+          <div class="clear"></div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="thirdlogin">
+    <div class="pd50">
+      <h4>用第三方帐号直接登录</h4>
+      <ul>
+        <li id="sinal"><a href="JavaScript:;">微博账号登录</a></li>
+        <li id="qql"><a href="JavaScript:;">QQ账号登录</a></li>
+        <div class="clear"></div>
+      </ul>
+      <div class="clear"></div>
+    </div>
+  </div>
+</div>
+<div id="reg_setp">
+  <div class="back_setp">返回</div>
+  <div class="blogo"></div>
+  <div id="setp_quicklogin">
+    <ul class="quicklogin_socical">
+      <li class="quicklogin_socical_weibo"><a href="JavaScript:;">微博帐号注册</a></li>
+      <li class="quicklogin_socical_qq"><a href="JavaScript:;">QQ帐号注册</a></li>
+    </ul>
+  </div>
+</div>
+<!--登录 end-->
+
+<!--nav start-->
+<div class="inner">
+	<div class="nav1">
+    	<ul class="nav-bd">
+    		<li class="nav-item"><a href="index.html">首页</a></li>
+    		<li class="nav-item"><a href="etws.html">儿童卫士</a></li>
+    		<li class="nav-item"><a href="lyq.html">路由器</a></li>
+    		<li class="nav-item"><a href="sxj.html">摄像机</a></li>
+    		<li class="nav-item"><a href="ss.html">随身WIFI</a></li>
+    		<li class="nav-item"><a href="qkfx.html">趣酷发现</a></li>
+    		<li class="nav-item current"><a href="qksy.html">趣酷试用</a></li>
+    		<li class="nav-item"><a href="lt.html">论坛</a></li>
+    	</ul>
+        <div class="move-bg"></div>
+    </div>
+</div>
+<!--nav end-->
+<!--main-->
+<div class="main">
+    <div id="container">
+        <ul class="col">
+            <li>
+                <div class="water_pic"><a href=""><img src="img/1.jpg" alt="" /></a></div>
+                <div class="water_user">美女小清新_1</div>
+                <div class="water_option">
+                    <a href="" class="option_item">收藏 4</a>
+                    <span class="split"></span>
+                    <a href="" class="option_item option_comt">评论 8</a>
+                    <span class="split"></span>
+                    <a href="" class="option_item option_relay">转播 124</a>
+                </div>
+            </li>
+            <li>
+                <div class="water_pic"><a href=""><img src="img/2.jpg" alt="" /></a></div>
+                <div class="water_user">美女小清新_2</div>
+                <div class="water_option">
+                    <a href="" class="option_item">收藏 4</a>
+                    <span class="split"></span>
+                    <a href="" class="option_item option_comt">评论 8</a>
+                    <span class="split"></span>
+                    <a href="" class="option_item option_relay">转播 124</a>
+                </div>
+            </li>
+            <li>
+                <div class="water_pic"><a href=""><img src="img/3.jpg" alt="" /></a></div>
+                <div class="water_user">美女小清新_3</div>
+                <div class="water_option">
+                    <a href="" class="option_item">收藏 4</a>
+                    <span class="split"></span>
+                    <a href="" class="option_item option_comt">评论 8</a>
+                    <span class="split"></span>
+                    <a href="" class="option_item option_relay">转播 124</a>
+                </div>
+            </li>
+        </ul>
+        
+        <ul class="col"></ul>
+        
+        <ul class="col" style="margin-right:0"></ul>
+        
+        <a href="javascript:" class="loadMeinvMOre" id="loadMeinvMOre">加载更多</a>
+        
+    </div><!--container end-->
+</div>  
+<!--main end-->  
+
+<!--hooter start-->
+	<div class="footer">
+    	<div class="foot-nav">
+        	<ul>
+        		<li><i class="icon1"></i>7天无理由退货</li>
+        		<li><i class="icon2"></i>15天免费换货</li>
+        		<li class="curr"><i class="icon3"></i>满99元包邮</li>
+        	</ul>
+        </div>
+    	<div class="foot-main clearfix">
+        	<dl>
+        		<dt>新手入门</dt>
+        		<dd><a href="javascript:;">新用户注册</a></dd>
+        		<dd><a href="javascript:;">用户登录</a></dd>
+        		<dd><a href="javascript:;">找回密码</a></dd>
+        	</dl>
+        	<dl>
+        		<dt>购物指南</dt>
+        		<dd><a href="javascript:;">购买流程</a></dd>
+        		<dd><a href="javascript:;">支付方式</a></dd>
+        		<dd><a href="javascript:;">配送说明</a></dd>
+        	</dl>
+        	<dl>
+        		<dt>售后服务</dt>
+        		<dd><a href="javascript:;">服务条款</a></dd>
+        		<dd><a href="javascript:;">七日退货</a></dd>
+        		<dd><a href="javascript:;">十五日换货</a></dd>
+        	</dl>
+        	<dl>
+        		<dt>趣酷试用</dt>
+        		<dd><a href="javascript:;">试用流程</a></dd>
+        		<dd><a href="javascript:;">查看申请结果</a></dd>
+        		<dd><a href="javascript:;">提交报告</a></dd>
+        	</dl>
+       	  <dl>
+        		<dt>联系我们<br />400-6822-360</dt>
+        		<dd><a href="javascript:;">周一到周日9:00-18:00</a></dd>
+        	</dl>
+        </div>
+        <div class="social clearfix">
+        	<div class="weobo fl">
+            	<a href="javascript:;" class="golt">去逛我们的论坛</a>
+                <a href="javascript:;" class="gzwb">关注我们的官方微博</a>
+            </div>
+            <div class="weixin fl">
+            	<p>
+                	<b>趣酷官方微信</b>
+                    扫描二维码，即刻与趣酷小编亲密互动，还有极致酷品等你来拿！
+                </p>
+            </div>
+            <div class="mail fr">
+            	<p>
+                	<b>趣酷邮箱</b>
+                    有更好的酷品，最新的想法，联系我们吧！发邮件到1183491359@qq.com
+                </p>
+            </div>
+        </div>
+    	<div class="copy">
+        	趣酷网©2014-2015 广州传智播客科技有限公司版权所有｜粤ICP备14074849号-1
+        </div>
+    </div>
+<!--footer end-->
+<div class="footer-banner" style="width:728px; margin:0 auto"></div><!--分享-->
+<script src="js/jquery-1.8.3.min.js"></script>
+<script language="javascript" src="style/js/jquery.easing.min.js"></script><!-- lognin-->
+<script language="javascript" src="style/js/custom.js"></script><!-- lognin-->
+<script src="js/list.js"></script><!--导航滑块-->
+<script src="js/erweimatop.js"></script><!--二维码-->
+<script src="js/init.js"></script><!--分享-->
+<script type="text/javascript">
+$(function() {
+	//url data function dataType
+	function loadMeinv() {
+		var data = 0;
+		for (var i = 0; i < 25; i++) {//每次加载时模拟随机加载图片
+			data = parseInt(Math.random() * 25);
+			var html = "";
+			html = '<li><div class="water_pic"><a href="#"><img src = img/'
+				+ data + '.jpg></a></div><div class="water_user">美女小清新_'
+				+ data + '</div><div class="water_option"><a href="" class="option_item">收藏 4</a> <span class="split"></span><a href="" class="option_item option_comt">评论 8</a><span class="split"></span><a href="" class="option_item option_relay">转播 124</a></div></li>';
+			$minUl = getMinUl();
+			$minUl.append(html);
+		}
+	}
+	loadMeinv();
+	//无限加载
+	$(window).on("scroll", function() {
+		$minUl = getMinUl();
+		if ($minUl.height() <= 2*$(window).height()) {
+			//当最短的ul的高度比窗口滚出去的高度+浏览器高度大时加载新图片
+			loadMeinv();//加载新图片
+		}
+	})
+	function getMinUl() {//每次获取最短的ul,将图片放到其后
+		var $arrUl = $("#container .col");
+		var $minUl = $arrUl.eq(0);
+		$arrUl.each(function(index, elem) {
+			if ($(elem).height() < $minUl.height()) {
+				$minUl = $(elem);
+			}
+		});
+		return $minUl;
+	}
+	//点击更多加载
+	$("#loadMeinvMOre").click(function() {
+		$minUl = getMinUl();
+		loadMeinv();
+	});
+	
+})
+</script>
+<script>
+$(function(){
+	var num = 1;
+	$(".nav1").movebg({width:125/*滑块的大小*/,extra:40/*额外反弹的距离*/,speed:300/*滑块移动的速度*/,rebound_speed:400/*滑块反弹的速度*/});
+	$('.increment').click(function(e) {
+		num ++;
+        $('.goodsCount').val(num);
+    });
+	$('.decrement').click(function(e) {
+		num --;
+		if(num == 0){
+			num = 1;	
+		};
+    });
+})
+</script>
+</body>
+</html>

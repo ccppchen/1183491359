@@ -1,0 +1,27 @@
+.page1 { background:#fdd700;}
+.pageone-con { width:1200px; height:608px; margin:123px auto; box-sizing:border-box; background:url(../images/page1.png) no-repeat 0 0;}
+.pageone-con .text{ width:443px; padding-top:175px; padding-left:678px;}
+.text .where{ font-size:20px; color:#333;}
+.text .price{ font-size:20px; color:#333; margin-top:30px;}
+.text .price b{ font-size:40px; color:#fe5a72; font-weight:400;}
+.text a{ width:184px; height:68px; line-height:68px; color:#fff; display:block; font-size:25px; margin-top:30px; border-radius:42px; background:#fe5a72; text-align:center;}
+.text a:hover{ background:#FE7D90;}
+.pageone-con h1{ font-size:60px; font-weight:normal; color:#333; margin-bottom:10px; text-align:left;}
+.pageone-con h1 small{ width:60px; height:60px; border-radius:20px; background:#fff; display:inline-block; line-height:60px; color:#fe5a72; margin-left:10px; text-align:center;}
+
+.page2 { background-color: #fff;}
+.page3 { background-color: #50e29a;}
+.page-two,.page-three{ width:900px; margin:0 auto; padding:100px 150px;}
+.page-two h2,.page-three h2{ font-size:60px; color:#555; text-align:left; font-weight:normal;}
+.page-two p,.page-three p{ line-height:30px; color:#555; font-size:20px;}
+.page-three h2{ color:#fff;}
+.page-three p{ color:#fff;}
+
+.page4,.page5 { background-color:#fff;}
+.page4 .page-four{ width:1200px; height:772px; margin:0 auto; background:url(../images/page4.png) no-repeat;}
+.page5 .page-five{ width:1077px; height:600px; margin:0 auto; background:url(../images/page5.jpg) no-repeat 0 138px;}
+.page5 a{ width:184px; height:66px; line-height:66px; text-align:center; color:#fff; font-size:25px; display:block; margin:0 auto; border-radius:42px; background:#fe5a72;}
+.page5 a:hover{ background:#FE7D90;}
+
+.page-one{ position:fixed; top:0; width:100%; background:#fff;}
+
